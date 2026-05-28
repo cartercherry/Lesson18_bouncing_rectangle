@@ -100,6 +100,8 @@ try:
         cv2.putText(frame,f'{fps_filtered:0.1f} FPS',textLowerLeft,font,.0012*W,r_text_color,int(.001563*W) ) 
         cv2.imshow("Video",frame)
 except KeyboardInterrupt:
+    print("program terminated")
+finally:
     cv2.destroyAllWindows()  #clean up and terminate
     piCam.stop()
-    print("program terminated")
+    print('Clean up and exit complete')
