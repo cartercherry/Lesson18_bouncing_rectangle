@@ -1,6 +1,6 @@
 ##########################################################################################
 #  Lesson 18: bounce rectangle(s) off the 4 borders of the video window                  #
-#  a sound is played when the rectangles hit a  wall of the window                      #
+#  a sound is played when the rectangles hit a  wall of the window                       #
 #  Insure the rectrangles do not go past the 4 walls of the container                    #
 ##########################################################################################
 
